@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+     <header>
+         <h1>Reservas</h1>
+        <h2>Garanta já a sua</h2>
+     </header>
+     <nav>
+        <ul>
+            <li class="lista"><a href="index.html">Início</a></li>
+            <li class="lista"><a href="menu.html">Menu</a>
+                <ul>
+                        <li><a href="cafe.html">Café da Manhã</a></li>
+                        <li><a href="almoco.html">Almoço</a></li>
+                        <li><a href="janta.html">Jantar</a></li>
+                        <li><a href="sobremesas.html">Sobremesas</a></li>
+                </ul>
+            </li>
+            <li class="lista"><a href="reservas.html">Reservas</a></li>
+            <li class="lista"><a href="sobre.html">Sobre Nós</a></li>
+        </ul>
+    </nav>
+     <main>
+        <section class="reservations">
+        <h2>Faça sua Reserva</h2>
+        <p>Garanta sua mesa no Sabor e Arte e tenha uma experiência gastronômica inesquecível.</p>
+         <form>
+            <label for="name">Nome Completo:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="date">Data da Reserva:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Hora da Reserva:</label>
+            <input type="time" id="time" name="time" required>
+            <label for="guests">Número de Pessoas:</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            <label for="special-requests">Pedidos Especiais:</label>
+            <textarea id="special-requests" name="special_requests" rows="4"></textarea>
+         
+            <button type="submit">Reservar</button>
+             </form>
+     </main>
+    </section>
+     <footer>
+        <p>&copy; 2024 Sabor e Arte. Todos os direitos reservados. | Desenvolvido por <a href="https://github.com/FilippoChiarion" target="_blank">Filippo Chiarion</a></p>
+        <p>Siga-nos nas redes sociais:</p>
+        <ul>
+            <li><a href="https://www.facebook.com/seusaborarte">Facebook</a></li>
+            <li><a href="https://www.instagram.com/seusaborarte">Instagram</a></li>
+            <li><a href="https://www.twitter.com/seusaborarte">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

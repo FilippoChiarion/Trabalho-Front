@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "Boogie";
+    src: url(Boogie.ttf) format('truetype');
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #A0522D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header>h1{
+    font-family: "Boogie";
+    font-size: 80px;
+    margin-top: 20px;
+}
+header>h2{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 0px 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8B4513;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-radius: 10px;
+    background-color: #A0522D;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #8B4513;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li:hover ul {
+    display: block;
+    margin-left: -45px;
+}
+
+nav ul li ul li {
+    float: none;
+}
+
+body, h1, h2, p, ul, li, form, input, label, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FAF0E6;
+}
+
+section.reservations>h2{
+    font-family: "Bebas Neue";
+    font-size: 3.5rem;
+}
+
+section.reservations>p{
+    font-family: "Bebas Neue";
+    font-size: 2rem;
+}
+
+main {
+    padding: 20px;
+}
+
+.reservations {
+    padding: 50px 20px;
+    background-color: #F5F5DC;
+    text-align: center;
+}
+
+.reservations h2 {
+    font-size: 2.5em;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.reservations p {
+    font-size: 1.2em;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.reservations form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reservations label {
+    display: block;
+    font-size: 1.1em;
+    color: #333333;
+    margin: 10px 0 5px;
+}
+
+.reservations input,
+.reservations textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.reservations button {
+    background-color: #A0522D;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.reservations button:hover {
+    background-color: #8B4513;
+}
+
+footer {
+    background-color: #8B4513;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
