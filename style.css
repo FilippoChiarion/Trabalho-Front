@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "Boogie";
+    src: url(Boogie.ttf) format('truetype');
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #B87B5E;
+}
+
+header{
+    background-color: #A0522D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header>h1{
+    font-family: "Boogie";
+    font-size: 80px;
+    margin-top: 20px;
+}
+header>h2{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 0px 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8B4513;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-radius: 10px;
+    background-color: #A0522D;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #8B4513;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li:hover ul {
+    display: block;
+    margin-left: -45px;
+}
+
+nav ul li ul li {
+    float: none;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem>h1{
+    font-family: "Bebas Neue";
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color:#bd8843;
+    border-radius: 20px;
+    padding: 20px;
+}
+section.imagem>p{
+    
+    margin-top: 20px;
+    font-family: "Bebas Neue";
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color:#B87B5E;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #dab98f;
+}
+
+section.imagem>p>strong>a:hover{
+    color:#584e3f ;
+}
+
+section#img01{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: url(imagens/fundoloja.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+.menu {
+    padding: 50px 20px;
+    background-color: #F5F5DC; ;
+    text-align: center;
+}
+
+.menu>h2 {
+    font-size: 2.5em;
+    color: #8B4513; ;
+    margin-bottom: 40px;
+}
+
+.menu-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 45%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-item h3 {
+    font-size: 1.8em;
+    color: #8B4513; ;
+    margin: 15px 0;
+}
+
+.menu-item p {
+    font-size: 1em;
+    color: #333333;
+    padding: 0 15px 15px;
+}
+
+.menu-item .btn {
+    background-color: #A0522D;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.menu-item .btn:hover {
+    background-color: #8B4513;
+}
+
+section.wrapper{
+    display: flex;
+    justify-content: center;
+}
+section.wrapper>img{
+    width: 50vw;
+}
+div.about{
+    background-color: #c46e49ef;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+div.about>h1{
+    padding: 40px 0px 60px 0px;  
+    margin-top: -30px;
+   
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-size: 4em;
+}
+div.about>p{
+    text-align: justify;
+}
+
+div.about>ul>li{
+    padding: 10px;
+}
+
+div.about>ul{
+    
+   
+    width: 50vw;
+    line-height: 40px;
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #8B4513;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#img02{
+    background-image: url(imagens/restaurante.jpg);
+    background-size: cover;
+}
