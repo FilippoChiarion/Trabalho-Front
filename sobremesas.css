@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: "Boogie";
+    src: url(Boogie.ttf) format('truetype');
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F5F5DC;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #A0522D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header>h1{
+    font-family: "Boogie";
+    font-size: 80px;
+    margin-top: 20px;
+}
+header>h2{
+    font-family: "Bebas Neue";
+    font-size: 40px;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0px 0px 0px 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #8B4513;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-radius: 10px;
+    background-color: #A0522D;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #8B4513;
+    min-width: 160px;
+    z-index: 1;
+}
+
+nav ul li:hover ul {
+    display: block;
+    margin-left: -45px;
+}
+
+nav ul li ul li {
+    float: none;
+}
+
+
+.title{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.title>h1{
+    font-family: "Bebas Neue";
+    font-variant: small-caps;
+    font-size: 5rem;
+}
+
+
+
+ul.cardapio-itens>li{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0px 0px 150px 0px;
+  
+}
+
+ul.cardapio-itens>li>div>h1{
+    margin-top: 50px;
+    font-family: "Arial";
+    font-size: 2rem;
+    padding-bottom: 150px;
+}
+
+ul.cardapio-itens>li>div>i>p{
+    font-size: 1.7rem;
+}
+
+div.preco{
+    align-self: flex-end;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+footer {
+    background-color: #8B4513;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}

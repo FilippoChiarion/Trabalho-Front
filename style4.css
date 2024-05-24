@@ -1,0 +1,50 @@
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-link {
+    background-color: #A0522D;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.menu-link:hover {
+    background-color: #8B4513;
+}
+
+/* Estilo para detalhes do cardápio */
+.menu-detail-section {
+    padding: 50px 20px;
+    background-color: #F5F5DC;
+    text-align: center;
+}
+
+.menu-detail-section h2 {
+    font-size: 2.5em;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    margin: 20px 0;
+}
+
+.menu-item h3 {
+    font-size: 1.8em;
+    color: #A0522D;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+    color: #333333;
+}

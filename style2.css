@@ -102,6 +102,10 @@ nav ul li ul li {
     justify-content: space-around;    
 }
 
+.wrapper>div>a{
+    padding:30px;
+}
+
 .wrapper>div{
     font-family: "Bebas Neue";
     font-size: 2rem;
@@ -112,6 +116,7 @@ nav ul li ul li {
     border-radius: 20px;
     transition: transform 0.3s;
 }
+
 section.wrapper>div:hover{
     cursor: pointer;
     transform: scale(1.1);
@@ -137,6 +142,7 @@ section.cafe{
     height: 600px;
 }
 section.cafe>p{
+    line-height: 40px;
     border-radius: 20px;
     height: auto;
     margin-left: 20px;
@@ -192,6 +198,7 @@ section.almoco{
 }
 
     section.almoco>p{
+        line-height: 40px;
         border-radius: 20px;
         height: auto;
         margin-left: 20px;
@@ -223,6 +230,7 @@ section.janta{
     height: 80vh;
 }
 section.janta>p{
+    line-height: 40px;
     margin-left: 20px;
     border-radius: 20px;
     height: 400px;
@@ -255,6 +263,7 @@ section.sobremesa{
 }
 
 section.sobremesa>p{
+    line-height: 40px;
     margin-left: 20px;
     border-radius: 20px;
     height: auto;
@@ -265,3 +274,34 @@ section.sobremesa>p{
     font-size: 1.6rem;
     font-family: "Bebas Neue";
 }
+footer {
+    background-color: #8B4513;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
